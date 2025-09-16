@@ -1,0 +1,57 @@
+.splitContainer {
+  display: flex;
+  height: 100%; /* Full viewport height */
+  width: 100%;
+  background-color: #fff5eb;
+  padding: 2.5%;
+  @media (max-width: 576px) {
+    display: block;
+    height: auto;
+  }
+
+  @media (max-width: 932px) {
+    height: auto; /* Tablet */
+    display: block;
+  }
+}
+.section1 {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+h6 {
+  margin-bottom: 0px;
+}
+.section2 {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 2rem;
+  box-sizing: border-box;
+  background-color: white;
+  border-radius: 2.5%;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2.5rem;
+}
+
+.contactDetails {
+  display: flex;
+}
+
+.contactDetailsSection {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}

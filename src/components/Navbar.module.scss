@@ -1,0 +1,20 @@
+.orderBtn {
+  background-color: var(--color-green);
+  color: white;
+  &:hover {
+    background-color: darkcyan;
+    color: white;
+  }
+}
+
+.navbarNav {
+  display: flex; // Enable flexbox
+  gap: 2rem; // 👈 Equal spacing between items — this is key!
+  margin-left: auto; // Push to right (alternative to ms-auto)
+}
+
+.brandName {
+  text-transform: capitalize;
+  font-weight: 700;
+  color: #dc3545;
+}

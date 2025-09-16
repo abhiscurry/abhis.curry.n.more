@@ -1,0 +1,26 @@
+.splitContainer {
+  display: flex;
+  height: 50vh; /* Full viewport height */
+  width: 100%;
+  background-color: #fff5eb;
+
+  @media (max-width: 576px) {
+    display: block;
+    height: auto;
+  }
+
+  @media (max-width: 932px) {
+    height: auto; /* Tablet */
+    display: block;
+  }
+}
+
+.section {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 2rem;
+  box-sizing: border-box;
+}

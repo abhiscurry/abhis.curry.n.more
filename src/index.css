@@ -1,0 +1,14 @@
+.btn-order {
+  background-color: var(--color-order-button);
+  color: white;
+  border: none;
+}
+
+.btn-order:hover {
+  background-color: #1a3d22; /* Slightly darker on hover */
+  color: white;
+}
+
+.btn-order:focus {
+  box-shadow: 0 0 0 0.2rem rgba(35, 79, 43, 0.25);
+}

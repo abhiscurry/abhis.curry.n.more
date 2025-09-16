@@ -1,0 +1,28 @@
+import style from "./SocialMedia.module.scss";
+const SocialMedia = () => {
+  return (
+    <div>
+      <div className={`${style.socialMedia}`}>
+        <div className="heading">
+          <h1>
+            <i className="fa-brands fa-instagram m-1"></i>Follow Our Journey
+          </h1>
+        </div>
+        <div className="subHeading">
+          <h5>
+            From street food truck to restaurant - See our daily creation and
+            behind the scene moments
+          </h5>
+        </div>
+        <div className="socialAccount">
+          <h6>
+            <i className="fa-brands fa-instagram m-1"></i>
+            <span>@abhiscurryNmore</span>
+          </h6>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default SocialMedia;
