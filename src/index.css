@@ -12,3 +12,14 @@
 .btn-order:focus {
   box-shadow: 0 0 0 0.2rem rgba(35, 79, 43, 0.25);
 }
+body {
+  font-family: "Open Sans", sans-serif !important;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+h5 {
+  line-height: 2rem;
+  font-weight: 400;
+}

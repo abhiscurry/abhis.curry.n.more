@@ -12,21 +12,23 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <>
-      <OfferBanner
-        message="20% OFF all order this weekend. Use code WALL20 "
-        pillText="Grand Opening"
-      />
-      <Navbar />
-      <Banner
-        message="Today : Dalhousie University - 11:30AM "
-        pillText="(902)123-CURRY"
-      />
-      <Overview></Overview>
-      <SocialMedia></SocialMedia>
-      <FoodItemCarousel></FoodItemCarousel>
-      <CateringForm></CateringForm>
-      <AdditionalServices></AdditionalServices>
-      <Footer></Footer>
+      <div className="root">
+        <OfferBanner
+          message="20% OFF all order this weekend. Use code WALL20 "
+          pillText="Grand Opening"
+        />
+        <Navbar />
+        <Banner
+          message="Today : Dalhousie University - 11:30AM "
+          pillText="(902)123-CURRY"
+        />
+        <Overview></Overview>
+        <SocialMedia></SocialMedia>
+        <FoodItemCarousel></FoodItemCarousel>
+        <CateringForm></CateringForm>
+        <AdditionalServices></AdditionalServices>
+        <Footer></Footer>
+      </div>
     </>
   );
 }
