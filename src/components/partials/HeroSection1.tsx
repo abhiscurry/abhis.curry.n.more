@@ -10,19 +10,13 @@ const OverviewSection1 = () => {
         </h1>
       </div>
       <div className="content">
-        <h5>
+        <h6>
           Experience authentic Gujarati breakfast and snacks that started on
           Halifax street and now has a permanent home. Fresh, favourful and made
           with love
-        </h5>
+        </h6>
       </div>
-      <div className="location">
-        <span>
-          <i className="fa-solid fa-location-dot m-1"></i> 123 Spring Garden,
-          Halifax
-        </span>
-      </div>
-      <div className="m-3">
+      <div className="my-3">
         <Button variant="danger m-1">View Menu</Button>
         <Button variant="outline-success m-1">Order Catering</Button>
       </div>

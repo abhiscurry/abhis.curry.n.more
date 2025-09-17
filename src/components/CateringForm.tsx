@@ -9,11 +9,11 @@ const CateringForm = () => {
           <h1>Catering & Contact</h1>
         </div>
         <div className="subHeading">
-          <h5>
+          <h6>
             Bring authentic Gujarati flavors to your next event. From intimate
             office gatherings to large celebrations, we will make your event
             memorable.
-          </h5>
+          </h6>
         </div>
       </div>
       <div className={styles.splitContainer}>

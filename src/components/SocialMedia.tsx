@@ -9,10 +9,10 @@ const SocialMedia = () => {
           </h1>
         </div>
         <div className="subHeading">
-          <h5>
+          <h6>
             From street food truck to restaurant - See our daily creation and
             behind the scene moments
-          </h5>
+          </h6>
         </div>
         <div className="socialAccount">
           <h6>

@@ -4,7 +4,7 @@ import styles from "./Navbar.module.scss"; // ✅ Import SCSS Module
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
-      <div className="container-fluid">
+      <div className="container">
         <a className="navbar-brand" href="#">
           <img src="/images/logo.png" alt="Bootstrap" width="75" height="75" />
           <span className={` ${styles.brandName}`}>Abhi's Curry N More</span>

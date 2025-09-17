@@ -16,18 +16,17 @@ const MenuCarousel = () => {
   return (
     <>
       <div className={`${styles.foodItemCarouselContainer}`}>
-        <Container className="p-5">
+        <Container className="p-5 text-center">
           <Splide
             options={{
-              type: "loop",
               perPage: 3,
-              focus: "center",
-              gap: "1rem",
-              autoplay: false,
+              gap: 1,
+              type: "loop",
               pauseOnHover: true,
               breakpoints: {
-                768: { perPage: 3 },
-                480: { perPage: 1.2 },
+                640: {
+                  perPage: 1,
+                },
               },
             }}
             className={styles.carousel}

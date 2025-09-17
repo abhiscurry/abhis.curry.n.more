@@ -19,16 +19,7 @@ const Footer = () => {
                 Abhis Curry N More
               </h4>
             </div>
-            <h5 className="mt-2" style={{ fontWeight: "normal" }}>
-              Bite into Happiness
-            </h5>
-            <div className="locationMap">
-              <img
-                src="https://via.placeholder.com/200x150"
-                alt="Map"
-                style={{ maxWidth: "100%", borderRadius: "5px" }}
-              />
-            </div>
+
             <div className="mt-2 socialMediaIcons"></div>
           </Col>
           <Col md={6} className="text-center mb-3 mb-md-0">
@@ -41,9 +32,7 @@ const Footer = () => {
               <br />
               Sun: 12:00 PM - 8:00 PM
             </p>
-            <p>
-              <strong>Phone:</strong> (902)123-CURRY
-            </p>
+
             <p>
               <strong>Location:</strong>
               <br />
