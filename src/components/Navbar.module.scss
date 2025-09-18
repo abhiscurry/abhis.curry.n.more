@@ -19,3 +19,16 @@
   font-weight: 700;
   color: #dc3545;
 }
+
+.navLink {
+  text-decoration: none;
+  color: #333;
+  font-weight: normal;
+  padding: 0.5rem 1rem;
+
+  &.active {
+    font-weight: bold;
+    color: #0edd64;
+    font-size: 32px;
+  }
+}
