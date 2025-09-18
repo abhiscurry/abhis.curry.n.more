@@ -32,7 +32,7 @@ const HeroSection2 = () => {
     <Carousel className={styles.carouselContainer}>
       {images.map((image) => (
         <Carousel.Item key={image.id} interval={1500}>
-          <Image src={image.imagePath} height={500} width={600}></Image>
+          <Image src={image.imagePath} height={540} width={600}></Image>
           {/* <Carousel.Caption>
             <h3>First slide label</h3>
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
