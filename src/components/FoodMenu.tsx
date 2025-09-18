@@ -5,11 +5,11 @@ import fooditemsData from "../data/fooditems";
 const FoodMenu = () => {
   const menuItems: MenuCategory[] = fooditemsData;
   return (
-    <div>
-      <Container className="my-4">
+    <div className={` ${styles.customBackground} `}>
+      <Container className="py-4">
         {menuItems.map((category) => (
           <div key={category.id}>
-            <h2 className={`${styles.category} my-4`}>{category.title}</h2>
+            <h2 className={`${styles.category} mt-4`}>{category.title}</h2>
             <Row xs={1} md={1} className="g-4">
               {category.items.map((item) => (
                 <Col key={item.id}>
