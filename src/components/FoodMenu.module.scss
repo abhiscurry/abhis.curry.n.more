@@ -1,0 +1,44 @@
+.cardContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.cardImage {
+  width: 300px;
+  object-fit: cover;
+}
+
+.cardBody {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .cardContainer {
+    flex-direction: column;
+  }
+
+  .cardImage {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.category {
+  color: #dc3545;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.itemPrice {
+  color: #dc3545;
+  font-weight: 600;
+  letter-spacing: 0.2rem;
+}
+
+.itemTitle {
+  color: #dc3545;
+  font-weight: 600;
+}
