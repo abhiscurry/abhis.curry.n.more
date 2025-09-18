@@ -5,12 +5,26 @@ import styles from "./FoodItemCarousel.module.scss";
 import { Container } from "react-bootstrap";
 const MenuCarousel = () => {
   const images = [
-    "https://picsum.photos/id/1/397/500",
-    "https://picsum.photos/id/2/397/500",
-    "https://picsum.photos/id/3/397/500",
-    "https://picsum.photos/id/4/397/500",
-    "https://picsum.photos/id/5/397/500",
-    "https://picsum.photos/id/6/397/500",
+    {
+      id: 1,
+      url: "https://www.instagram.com/reel/DOBFZmODgIf/?igsh=MWNrZGtvajl3MmVrdQ==",
+      imagePath: "../images/reels/deepakbhaiFafda.png",
+    },
+    {
+      id: 2,
+      url: "https://www.instagram.com/reel/DB3yeivpSq7/?igsh=anMwY2E0Z3Z5bnBw",
+      imagePath: "../images/reels/deepakbhaiJaleebi.png",
+    },
+    {
+      id: 3,
+      url: "https://www.instagram.com/reel/DL_H0JJpYm6/?igsh=MTdubzQ5aHN2ODN5cw==",
+      imagePath: "../images/reels/foodTuck.png",
+    },
+    {
+      id: 4,
+      url: "https://www.instagram.com/reel/DJ7VPSdJvC_/?igsh=MXMzMjIweXNoanN2YQ==",
+      imagePath: "../images/reels/burgar.png",
+    },
   ];
 
   return (
@@ -31,13 +45,16 @@ const MenuCarousel = () => {
             }}
             className={styles.carousel}
           >
-            {images.map((src, i) => (
-              <SplideSlide key={i}>
-                <img
-                  src={src}
-                  alt={`Slide ${i + 1}`}
-                  // className={`${styles.foodItemCarouselImage}`}
-                />
+            {images.map((image, index) => (
+              <SplideSlide key={image.id}>
+                <a href={image.url}>
+                  <img
+                    src={image.imagePath}
+                    alt={`Slide ${index + 1}`}
+                    height={600}
+                    width={390}
+                  />
+                </a>
               </SplideSlide>
             ))}
           </Splide>

@@ -2,8 +2,6 @@
   display: flex;
   height: 100%; /* Full viewport height */
   width: 100%;
-
-  padding: 2.5%;
   @media (max-width: 576px) {
     display: block;
     height: auto;

@@ -144,7 +144,7 @@ const GetQuote = () => {
           />
         </Form.Group>
 
-        <Button variant="outline-success" type="submit">
+        <Button className="custom-secondary-btn" type="submit">
           Request Quote
         </Button>
       </Form>

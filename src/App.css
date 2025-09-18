@@ -8,3 +8,25 @@
   font-style: normal;
   font-variation-settings: "wdth" 100;
 }
+
+.custom-primary-btn {
+  background: #ff6900;
+  color: #fefbf5;
+  border-color: grey;
+  &:hover {
+    background: #f24a00;
+    color: #fefbf5;
+    border-color: grey;
+  }
+}
+
+.custom-secondary-btn {
+  background: #fefbf5;
+  color: #1f5f3f;
+  border-color: grey;
+  &:hover {
+    background: #1f5f3f;
+    color: #fefbf5;
+    border-color: grey;
+  }
+}

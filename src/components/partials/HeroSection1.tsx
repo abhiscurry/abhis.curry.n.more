@@ -21,8 +21,8 @@ const OverviewSection1 = () => {
         </h6>
       </div>
       <div className="my-3">
-        <Button variant="danger m-1">View Menu</Button>
-        <Button variant="outline-success m-1">Order Catering</Button>
+        <Button className="custom-primary-btn m-1">View Menu</Button>
+        <Button className="custom-secondary-btn m-1">Order Catering</Button>
       </div>
       <div className="alertLocation">
         <Alert variant={"success"}>

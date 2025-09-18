@@ -44,7 +44,10 @@ const Navbar = () => {
             </Nav.Link>
             <li className="nav-item">
               <a href="https://www.google.com/viewer/chooseprovider?mid=/g/11q33zvkz5&g2lbs=AO8LyOI65lpBhTXWeYuolbKx3qz1LVN5TrmVLSybnA12n6Bhd22EETdrmnqPTvGQH2U1GS4zIgSlpwsumCAynLXSohkQAVsBIA%3D%3D&hl=en-CA&gl=ca&ssta=1&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=search&gei=AF3LaOjJHrDn5NoPwqaosA4&ei=AF3LaOjJHrDn5NoPwqaosA4&fo_s=OA&opi=89978449&ebb=1&foub=mcpp&orderType=2">
-                <button type="button" className={`btn-success btn btn-sm`}>
+                <button
+                  type="button"
+                  className={`custom-primary-btn  btn btn-sm`}
+                >
                   Order Online
                 </button>
               </a>
