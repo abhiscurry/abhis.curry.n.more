@@ -5,9 +5,13 @@ const OverviewSection1 = () => {
     <div>
       <div className={`${style.heading}`}>
         <h1 className="heading-style">
-          From food truck to
-          <b className={`${style.subHeading}`}> your neighbourhood. </b>
+          First Ever
+          <br />
         </h1>
+        <h2>
+          <b className={`${style.subHeading}`}>Authentic Gujarati restaurant</b>
+        </h2>
+        <h1>in whole Atlantic Canada</h1>
       </div>
       <div className="content">
         <h6>

@@ -5,7 +5,7 @@ const Carousel = () => {
         <div className="carousel-inner">
           <div className="carousel-item active">
             <img
-              src="https://placehold.co/720x400"
+              src="https://placehold.co/500x500"
               className="d-block w-100"
               alt="Slide 1"
             />

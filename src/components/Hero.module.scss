@@ -1,8 +1,10 @@
+.hero {
+  background-color: #fff5eb;
+}
 .splitContainer {
   display: flex;
-  height: 50vh; /* Full viewport height */
+  height: 70vh; /* Full viewport height */
   width: 100%;
-  background-color: #fff5eb;
 
   @media (max-width: 576px) {
     display: block;
