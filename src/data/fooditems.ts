@@ -1,65 +1,387 @@
 export default [
   {
     id: 1,
-    title: "Starter",
+    title: "Taste Of Gujarat (All Day Breakfast)",
     items: [
       {
         id: 1,
-        image: "https://placehold.co/381x221",
-        title: "Foie Gras Kiss",
-        description:
-          "Silky smooth terrine of ethically sourced foie gras, subtly sweetened jam providing a delightful counterpoint, accompanied by thin slices of warm, buttered brioche.",
-        price: 48,
+        image: "../images/menu-images/Fafda.png",
+        title: "Fafda",
+        description: `Crispy, savoury strips of chickpea flour dough infused
+with carom seeds. Deep-fried to perfection. and served
+with a mildly sweet and tangy chutney.`,
+        price: "$11.49",
+        quantity: "(150gm)",
         isSignature: true,
       },
       {
         id: 2,
-        image: "https://via.placeholder.com/400x200?text=Caviar+Pearls",
-        title: "Caviar Pearls",
-        description:
-          "Delicate and glistening Osetra caviar, sustainably sourced, served atop a dollop of chilled crème fraîche with miniature, perfectly toasted blini.",
-        price: 65,
+        image: "../images/menu-images/Jalebi.png",
+        title: "Jalebi",
+        description: `Crispy and juicy spiral-shaped dessert made from all-
+purpose flour, deep-fried and soaked in fragrant sugar
+syrup. Sweet, cruncy and irrestistible!`,
+        price: "$4.99/$8.49",
+        quantity: "(125gm/250gm)",
         isSignature: true,
       },
       {
         id: 3,
-        image: "https://via.placeholder.com/400x200?text=Lobster+Whisper",
-        title: "Lobster Whisper",
-        description:
-          "Chilled, succulent lobster tail, gently poached to retain its sweetness, paired with a light and airy avocado mousse and a zesty citrus vinaigrette that awakens the palate.",
-        price: 42,
+        image: "../images/menu-images/Nylon-Khaman.png",
+        title: "Nylon Khaman",
+        description: `Ultra-soft, spongy, and juicy steamed chickpea flour
+cakes with a sweet and tangy taste. Garnished with
+mustard seeds, green chillies, and fresh cilantro.`,
+        price: "$8.99",
+        quantity: "(300gm)",
+      },
+      {
+        id: 4,
+        image: "../images/menu-images/Vatidal-Khaman.png",
+        title: "Vati Dal Khaman",
+        description: `Ultra-soft, spongy, and juicy steamed chickpea flour
+cakes with a sweet and tangy taste. Garnished with
+mustard seeds, green chillies, and fresh cilantro.`,
+        quantity: "(300gm)",
+        price: "$9.99",
+      },
+      {
+        id: 5,
+        image: "../images/menu-images/Sev-Khamani.png",
+        title: "Sev Khamani",
+        description: `Sweet and mildly spiced steamed chickpea crumble,
+topped with crispy sev, mustard seeds, green chillies,
+and fresh cilantro. Served with homemade chutney.`,
+        quantity: "(300gm)",
+        price: "$9.99",
+      },
+      {
+        id: 6,
+        image: "../images/menu-images/Idada.png",
+        title: "Idada",
+        description: `Soft, steamed rice and black lentil cakes, garnished
+with mustard seeds, green chillies, and fresh cilantro.
+Served with homemade chutney.`,
+        quantity: "(300gm)",
+        price: "$9.99",
       },
     ],
   },
   {
     id: 2,
-    title: "Curry n Rice",
+    title: "INDIAN STREET FOOD",
     items: [
       {
         id: 1,
-        image: "https://placehold.co/381x221",
-        title: "Foie Gras Kiss",
-        description:
-          "Silky smooth terrine of ethically sourced foie gras, subtly sweetened jam providing a delightful counterpoint, accompanied by thin slices of warm, buttered brioche.",
-        price: 48,
+        image: "../images/menu-images/Samosa.png",
+        title: "Veggie Samosa",
+        description: `Homemade pastry filled with potatoes, peas and spices.`,
+        price: "$2.99",
+        quantity: "(1 pc)",
         isSignature: true,
       },
       {
         id: 2,
-        image: "https://via.placeholder.com/400x200?text=Caviar+Pearls",
-        title: "Caviar Pearls",
-        description:
-          "Delicate and glistening Osetra caviar, sustainably sourced, served atop a dollop of chilled crème fraîche with miniature, perfectly toasted blini.",
-        price: 65,
+        image: "../images/menu-images/Samosa-chaat.png",
+        title: "Samosa Chaat",
+        description: `Two pieces of crushed samosas topped with
+homemade spicy mint sauce, sweet yogurt, and
+tamrind sauce with fresh onions and Sev.`,
+        price: "$9.99",
+        quantity: "(125gm/250gm)",
         isSignature: true,
       },
       {
         id: 3,
-        image: "https://via.placeholder.com/400x200?text=Lobster+Whisper",
-        title: "Lobster Whisper",
-        description:
-          "Chilled, succulent lobster tail, gently poached to retain its sweetness, paired with a light and airy avocado mousse and a zesty citrus vinaigrette that awakens the palate.",
-        price: 42,
+        image: "../images/menu-images/Vadapav.png",
+        title: "Vadapav",
+        description: `Deep-fried mashed spicy potato patty coated with
+chickpea flour, placed inside a bread bun with
+homemade spicy chutney.`,
+        price: "$5.25/$5.49/$5.99",
+        quantity: "(Oil/Butter/Cheese)",
+      },
+      {
+        id: 4,
+        image: "../images/menu-images/Dabeli.png",
+        title: "Dabeli",
+        description: `Ultra-soft, spongy, and juicy steamed chickpea flour
+cakes with a sweet and tangy taste. Garnished with
+mustard seeds, green chillies, and fresh cilantro.`,
+        quantity: "(Oil/Butter/Cheese)",
+        price: "$5.25/$5.49/$5.99",
+      },
+      {
+        id: 5,
+        image: "../images/menu-images/Samosa-Pav.png",
+        title: "Samosa Pav",
+        description: `Deep-fried veggie samosa sandwiched between a
+bread bun flavoured with our special homemade
+blended creamy spiced sauce.`,
+        quantity: "(Oil/Butter/Cheese)",
+        price: "$5.25/$5.49/$5.99",
+      },
+      {
+        id: 6,
+        image: "../images/menu-images/Aloo-tikki-pav.png",
+        title: "Aloo Tikki Pav",
+        description: `Crispy potato patties served in a bun with tangy
+chutneys, onions, and flavourful spices.`,
+        quantity: "(Oil/Butter/Cheese)",
+        price: "$5.25/$5.49/$5.99",
+      },
+    ],
+  },
+  {
+    id: 3,
+    title: "Twisted Burgers",
+    items: [
+      {
+        id: 1,
+        image: "../images/menu-images/Veggie-Samosa-Burger.png",
+        title: "Veggie Samosa Burger",
+        description: `Dep-fried veggie samosa with slice of cheese, lettuce,
+tomatoes, onions with letchup, meyonnaise and
+homemade garlic-mint sauce.`,
+        price: "$6.25",
+        quantity: "",
+        isSignature: true,
+      },
+      {
+        id: 2,
+        image: "../images/menu-images/veggie-cheese-Burger.png",
+        title: "Veggie Cheese Burger",
+        description: `Deep-fried crispy spiced potatoes patty with slice of
+cheese, lettuce, tomatoes, onions with ketchup,
+mayonnaise and homemade garlic-mint sauce.`,
+        price: "$6.25",
+        quantity: "",
+        isSignature: true,
+      },
+      {
+        id: 3,
+        image: "../images/menu-images/Nylon-Khaman.png",
+        title: "Spicy Vada Burger",
+        description: `Deep-fried spicy potato patty coated with chickpea
+flour with slice of cheese, lettuce, tomatoes, onions
+with ketchup, mayonnaise and garlic-mint sauce.`,
+        price: "$8.99",
+        quantity: "",
+      },
+    ],
+  },
+  {
+    id: 4,
+    title: "Fries",
+    items: [
+      {
+        id: 1,
+        image: "../images/menu-images/Fries.png",
+        title: "Regular Fries",
+        description: `Classic Fries.`,
+        price: "$7.99",
+        quantity: "",
+        isSignature: true,
+      },
+      {
+        id: 2,
+        image: "../images/menu-images/Masala-Fries.png",
+        title: "Masala Fries",
+        description: `Classic Fries with Our Signature Homemade Seasoning.`,
+        price: "$8.99",
+        quantity: "",
+        isSignature: true,
+      },
+      {
+        id: 3,
+        image: "../images/menu-images/Nylon-Khaman.png",
+        title: "Veggie Fries",
+        description: `Classic Fries seasoned with a homemade
+        blend, topped with fresh tomato, green onion and secret sauce.`,
+        price: "$9.99",
+        quantity: "",
+      },
+      {
+        id: 4,
+        image: "../images/menu-images/Nylon-Khaman.png",
+        title: "Bombay Fries",
+        description: `Fries topped with spicy tomato chutney
+        chopped onions, cilantro and crunchy sev.`,
+        price: "$9.99",
+        quantity: "",
+      },
+    ],
+  },
+  {
+    id: 5,
+    title: "Fusion Naan Tacos",
+    items: [
+      {
+        id: 1,
+        image: "../images/menu-images/Fries.png",
+        title: "Veggie Masala Naan Taco",
+        description: `Crispy bites of our secret potato
+stuffing recipe with chutneys,
+green onion, and masala spicees,
+wrapped in a naan.`,
+        price: "$8.99",
+        quantity: "",
+        isSignature: true,
+      },
+      {
+        id: 2,
+        image: "../images/menu-images/Masala-Fries.png",
+        title: "Chickpea Masala Naan Taco",
+        description: `Spiced chickpea curry with tangy
+chutney and crunchy veggies,
+wrapped in a soft naan taco.`,
+        price: "$8.99",
+        quantity: "",
+        isSignature: true,
+      },
+      {
+        id: 3,
+        image: "../images/menu-images/Nylon-Khaman.png",
+        title: "Butter Chicken Naan Taco",
+        description: `Tender chicken simmered in
+creamy tomato butter suace,
+topped with fresh slaw & chutney,
+served taco-style in soft naan.`,
+        price: "$9.99",
+        quantity: "",
+      },
+      {
+        id: 4,
+        image: "../images/menu-images/Nylon-Khaman.png",
+        title: "Paneer Naan Taco",
+        description: `Juicy paneer cubes tossed in
+spiced curry, layered with tangy
+chutneys, crunchy slaw, and
+wrapped in a naan.`,
+        price: "$9.99",
+        quantity: "",
+      },
+    ],
+  },
+  {
+    id: 6,
+    title: "Fusion Poutines",
+    items: [
+      {
+        id: 1,
+        image: "../images/menu-images/Butter-Chicken-Poutine.png",
+        title: "Butter Chicken Poutine",
+        description: `Fries topped with cheese curd and mild indian
+        spiced butter chicken, garnished with fresh green onions.`,
+        price: "$14.99",
+        quantity: "",
+        isSignature: true,
+      },
+      {
+        id: 2,
+        image: "../images/menu-images/Chickpea-masala-poutine.png",
+        title: "Chickpea Masala Poutine",
+        description: `Fries with chickpea masala, cheese curds, and green
+        onion garnish.`,
+        price: "$12.99",
+        quantity: "",
+        isSignature: true,
+      },
+      {
+        id: 3,
+        image: "../images/menu-images/Samosa-chaat-poutine.png",
+        title: "Samosa Chaat Poutine",
+        description: `Fries with crumbled samosas, tamarind chutney,
+        mint chutney, yogurt and cheese curds`,
+        price: "$12.99",
+        quantity: "",
+      },
+      {
+        id: 4,
+        image: "../images/menu-images/Paneer-tikka-poutine.png",
+        title: "Paneer Tikka Poutine",
+        description: `Fries topped with grilled paneer tikka, cheese
+        curds and spiced tikka masala gravy.`,
+        price: "$14.99",
+        quantity: "",
+      },
+    ],
+  },
+  {
+    id: 7,
+    title: "Curry & Rice",
+    items: [
+      {
+        id: 1,
+        image: "../images/menu-images/Butter-chicken-with-Rice.png",
+        title: "Butter Chicken With Rice",
+        description: `Creamy, mildly spiced tomato-based
+chicken curry served with steamed
+basmati rice.`,
+        price: "$14.99",
+        quantity: "",
+        isSignature: true,
+      },
+      {
+        id: 2,
+        image: "../images/menu-images/Chickpea-masala-and-rice.png",
+        title: "Chickpea Masala With Rice",
+        description: `Chickpea simmered in a fragrant tomato-
+onion gravy with aromatic spices, served
+alongside steamed basmati rice.`,
+        price: "$12.99",
+        quantity: "",
+        isSignature: true,
+      },
+      {
+        id: 3,
+        image: "../images/menu-images/Naan-Bread.png",
+        title: "Naan Bread",
+        description: `Soft, fluffy Indian flatbread.`,
+        price: "$1.99",
+        quantity: "",
+      },
+    ],
+  },
+  {
+    id: 8,
+    title: "Beverages",
+    items: [
+      {
+        id: 1,
+        image: "../images/menu-images/Butter-chicken-with-Rice.png",
+        title: "Masala Tea",
+        description: ``,
+        price: "$2.49",
+        quantity: "",
+        isSignature: true,
+      },
+      {
+        id: 2,
+        image: "../images/menu-images/Chickpea-masala-and-rice.png",
+        title: "Lassi",
+        description: ``,
+        price: "$7.99/$7.99/$6.99",
+        quantity: "Mango/Sahi Rose/Salted(Buttermilk)",
+        isSignature: true,
+      },
+      {
+        id: 3,
+        image: "../images/menu-images/Chickpea-masala-and-rice.png",
+        title: "Lemonade",
+        description: ``,
+        price: "$6.99/$7.99/$7.99",
+        quantity: "Classic/Strawberry/Blue Raspberry",
+        isSignature: true,
+      },
+      {
+        id: 5,
+        image: "../images/menu-images/Chickpea-masala-and-rice.png",
+        title: "Indian Spiced Lemonade",
+        description: ``,
+        price: "$7.99/$7.99",
+        quantity: "Nimbu Pani/Jal-Jeera",
+        isSignature: true,
       },
     ],
   },

@@ -91,7 +91,6 @@ const GetQuote = () => {
                 onChange={handleChange}
               >
                 <option>Select guest count</option>
-                <option>10</option>
                 <option>20</option>
                 <option>30</option>
                 <option>40</option>

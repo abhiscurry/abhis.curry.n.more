@@ -3,7 +3,8 @@ interface MenuItem {
   image: string;
   title: string;
   description: string;
-  price: number;
+  price: string;
+  quantity: string;
   isSignature?: boolean;
 }
 

@@ -16,7 +16,7 @@ const FoodMenu = () => {
                   <Card className={styles.cardContainer}>
                     <Card.Img
                       variant="top"
-                      src="https://placehold.co/381x221"
+                      src={item.image}
                       className={styles.cardImage}
                     />
                     <Card.Body className={styles.cardBody}>
@@ -29,10 +29,10 @@ const FoodMenu = () => {
                             }}
                             className="mx-2"
                           >
-                            <div className={styles.itemTitle}>{item.title}</div>
-                            <div className={styles.itemPrice}>
-                              ${item.price}
+                            <div className={styles.itemTitle}>
+                              {item.title} <sub> {item.quantity}</sub>
                             </div>
+                            <div className={styles.itemPrice}>{item.price}</div>
                           </div>
                         </Card.Title>
                         <hr></hr>

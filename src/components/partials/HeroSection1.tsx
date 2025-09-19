@@ -15,9 +15,9 @@ const OverviewSection1 = () => {
       </div>
       <div className="content">
         <h6>
-          Experience authentic Gujarati breakfast and snacks that started on
-          Halifax street and now has a permanent home. Fresh, favourful and made
-          with love
+          Experience authentic Gujarati breakfast, snacks and fusion Indian
+          street food that started on Halifax street and now has a permanent
+          home. Fresh, favourful and made with love.
         </h6>
       </div>
       <div className="my-3">
