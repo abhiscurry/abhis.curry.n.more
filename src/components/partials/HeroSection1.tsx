@@ -22,10 +22,10 @@ const OverviewSection1 = () => {
         </h6>
       </div>
       <div className="d-flex flex-row my-3">
-        <Nav.Link as={NavLink} to="/menu" className="navbar-brand">
+        <Nav.Link as={NavLink} to="/#/menu" className="navbar-brand">
           <Button className="custom-primary-btn m-1">View Menu</Button>
         </Nav.Link>
-        <Nav.Link as={NavLink} to="/" className="navbar-brand">
+        <Nav.Link as={NavLink} to="/#" className="navbar-brand">
           <Button className="custom-secondary-btn m-1">Order Catering</Button>
         </Nav.Link>
       </div>

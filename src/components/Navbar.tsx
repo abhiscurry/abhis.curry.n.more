@@ -26,21 +26,13 @@ const Navbar = () => {
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className={`navbar-nav ms-auto ${styles.navbarNav}`}>
-            <Nav.Link
-              as={NavLink}
-              to="/"
-              // @ts-ignore
-              className={({ isActive, isPending }) => {
-                console.log("hello");
-                isPending ? "pending" : isActive ? "active" : "";
-              }}
-            >
+            <Nav.Link as={NavLink} to="/#">
               Home
             </Nav.Link>
-            <Nav.Link as={NavLink} to="/menu">
+            <Nav.Link as={NavLink} to="/#/menu">
               Menu
             </Nav.Link>
-            <Nav.Link as={NavLink} to="/about">
+            <Nav.Link as={NavLink} to="/#/about">
               About us
             </Nav.Link>
             <li className="nav-item">
