@@ -1,5 +1,6 @@
-import { Alert, Button } from "react-bootstrap";
+import { Alert, Button, Nav, Row } from "react-bootstrap";
 import style from "./HeroSection1.module.scss";
+import { NavLink } from "react-router-dom";
 const OverviewSection1 = () => {
   return (
     <div>
@@ -20,10 +21,15 @@ const OverviewSection1 = () => {
           home. Fresh, favourful and made with love.
         </h6>
       </div>
-      <div className="my-3">
-        <Button className="custom-primary-btn m-1">View Menu</Button>
-        <Button className="custom-secondary-btn m-1">Order Catering</Button>
+      <div className="d-flex flex-row my-3">
+        <Nav.Link as={NavLink} to="/menu" className="navbar-brand">
+          <Button className="custom-primary-btn m-1">View Menu</Button>
+        </Nav.Link>
+        <Nav.Link as={NavLink} to="/" className="navbar-brand">
+          <Button className="custom-secondary-btn m-1">Order Catering</Button>
+        </Nav.Link>
       </div>
+
       <div className="alertLocation">
         <Alert variant={"success"}>
           <div className="foodTruck">
