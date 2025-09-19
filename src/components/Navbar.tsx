@@ -8,10 +8,11 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
       <div className="container">
-        <a className="navbar-brand" href="#">
+        <Nav.Link as={NavLink} to="/" className="navbar-brand">
           <img src="/images/logo.png" alt="Bootstrap" width="75" height="75" />
           <span className={` ${styles.brandName}`}>Abhi's Curry N More</span>
-        </a>
+        </Nav.Link>
+
         <button
           className="navbar-toggler"
           type="button"
