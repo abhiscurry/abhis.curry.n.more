@@ -1,0 +1,24 @@
+.customFormLabel {
+  font-weight: 500;
+}
+
+.customFormInput {
+  &::placeholder {
+    color: #808080; /* Desired placeholder color */
+    opacity: 1; /* Ensure full opacity (especially for Firefox) */
+  }
+
+  /* Vendor-specific placeholders for compatibility */
+  &::-webkit-input-placeholder {
+    color: #808080;
+  }
+
+  &::-moz-placeholder {
+    color: #808080;
+    opacity: 1; /* Firefox requires opacity explicitly */
+  }
+
+  &:-ms-input-placeholder {
+    color: #808080;
+  }
+}
