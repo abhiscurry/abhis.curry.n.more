@@ -52,3 +52,18 @@
     font-size: 20px;
   }
 }
+
+$accordion-collapsed-color: #6c757d;
+$accordion-expanded-color: #0d6efd;
+$accordion-collapsed-bg: #f8f9fa;
+$accordion-expanded-bg: #e7f1ff;
+
+.customAccordion {
+  // Override Bootstrap's CSS variables
+  --bs-accordion-active-bg: #f7f3cd;
+
+  --bs-accordion-bg: #f8f9fa; // collapsed bg
+
+  // Optional: override border color
+  --bs-accordion-border-color: #ff9933;
+}

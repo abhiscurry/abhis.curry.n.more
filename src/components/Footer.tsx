@@ -25,20 +25,17 @@ const Footer = () => {
           <Col md={6} className="text-center mb-3 mb-md-0">
             <p>
               <strong>Opening hours:</strong>
-              <br />
-              Mon - Thu: 11:00 AM - 9:00 PM
-              <br />
-              Fri - Sat: 11:00 AM - 10:00 PM
-              <br />
-              Sun: 12:00 PM - 8:00 PM
+              Everyday 10-7
             </p>
 
             <p>
-              <strong>Location:</strong>
-              <br />
-              123 Spring Garden Road
-              <br />
-              Halifax, NS B3H 3X5
+              <a href="https://www.google.com/maps/place/1536+Granville+St,+Halifax,+NS+B3J+1W8/@44.6450573,-63.5750447,16z/data=!3m1!4b1!4m6!3m5!1s0x4b5a2234a7da98a7:0x54b76b5f0c194fb2!8m2!3d44.6450535!4d-63.5724698!16s%2Fg%2F11r_m6nxcx?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D">
+                <strong>Location:</strong>
+                <br />
+                1536 Granville St,
+                <br />
+                Halifax, NS. B3J 1W8, Canada
+              </a>
             </p>
           </Col>
         </Row>
