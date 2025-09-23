@@ -3,16 +3,14 @@ import styles from "./OfferBanner.module.scss"; // ✅ Import SCSS Module
 
 interface Props {
   message: String;
-  pillText: String;
 }
 
-const OfferBanner = ({ message, pillText }: Props) => {
+const OfferBanner = ({ message }: Props) => {
   if (!message) return null; // Don't render if no message
 
   return (
     <div className={styles.offerBanner}>
-      <span className={styles.pill}>⭐ {pillText}</span>
-      {message}
+      <h2>{message}</h2>
     </div>
   );
 };

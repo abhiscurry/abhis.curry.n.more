@@ -3,11 +3,13 @@ import SocialMedia from "./SocialMedia";
 import FoodItemCarousel from "./FoodItemCarousel";
 import CateringForm from "./CateringForm";
 import AdditionalServices from "./AdditionalServices";
+import OfferBanner from "./OfferBanner";
 
 const Home = () => {
   return (
     <div>
       <Overview></Overview>
+      <OfferBanner message={"Dussehra Offer"}></OfferBanner>
       <SocialMedia></SocialMedia>
       <FoodItemCarousel></FoodItemCarousel>
       <CateringForm></CateringForm>

@@ -1,15 +1,15 @@
 .about-us {
   min-height: 100vh;
-  background-color: #FFFBDE;
+  background-color: #fffbde;
   color: #111827;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 /* Hero Section */
 .hero-section {
   padding: 80px 20px;
   text-align: center;
-  background: linear-gradient(135deg, #FFFBDE 0%, #F5F1E8 100%);
+  background: linear-gradient(135deg, #fffbde 0%, #f5f1e8 100%);
 }
 
 .hero-content {
@@ -18,7 +18,7 @@
 }
 
 .hero-title {
-  font-family: 'Playfair Display', serif;
+  /* font-family: 'Playfair Display', serif; */
   font-size: 3.5rem;
   font-weight: 600;
   color: #111827;
@@ -28,12 +28,12 @@
 
 .hero-title::before,
 .hero-title::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 50%;
   width: 100px;
   height: 2px;
-  background-color: #D4AF37;
+  background-color: #d4af37;
 }
 
 .hero-title::before {
@@ -46,7 +46,7 @@
 
 .hero-subtitle {
   font-size: 1.2rem;
-  color: #6B7280;
+  color: #6b7280;
   font-weight: 300;
   line-height: 1.6;
   max-width: 600px;
@@ -66,13 +66,13 @@
 }
 
 .timeline-container::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 50%;
   top: 0;
   bottom: 0;
   width: 3px;
-  background: linear-gradient(to bottom, #D4AF37, #B8860B);
+  background: linear-gradient(to bottom, #d4af37, #b8860b);
   transform: translateX(-50%);
   z-index: 1;
 }
@@ -88,8 +88,18 @@
 }
 
 /* Place content on alternating sides */
-.timeline-item:nth-child(odd) .timeline-content { grid-column: 2; align-items: flex-start; text-align: left; padding-left: 40px; }
-.timeline-item:nth-child(even) .timeline-content { grid-column: 1; align-items: flex-end; text-align: right; padding-right: 40px; }
+.timeline-item:nth-child(odd) .timeline-content {
+  grid-column: 2;
+  align-items: flex-start;
+  text-align: left;
+  padding-left: 40px;
+}
+.timeline-item:nth-child(even) .timeline-content {
+  grid-column: 1;
+  align-items: flex-end;
+  text-align: right;
+  padding-right: 40px;
+}
 
 /* Dot at the center per event */
 .timeline-line {
@@ -98,11 +108,11 @@
   top: 50%;
   width: 20px;
   height: 20px;
-  background-color: #D4AF37;
+  background-color: #d4af37;
   border-radius: 50%;
   transform: translate(-50%, -50%);
   z-index: 3;
-  box-shadow: 0 0 0 4px #FFFBDE, 0 0 0 8px #D4AF37;
+  box-shadow: 0 0 0 4px #fffbde, 0 0 0 8px #d4af37;
 }
 
 /* Stacked content (image, title, description) */
@@ -130,18 +140,20 @@
   transition: transform 0.3s ease;
 }
 
-.timeline-image:hover img { transform: scale(1.05); }
+.timeline-image:hover img {
+  transform: scale(1.05);
+}
 
 .timeline-year {
-  font-family: 'Playfair Display', serif;
+  /* font-family: "Playfair Display", serif; */
   font-size: 1.1rem;
   font-weight: 600;
-  color: #D4AF37;
+  color: #d4af37;
   letter-spacing: 0.08em;
 }
 
 .timeline-title {
-  font-family: 'Playfair Display', serif;
+  /* font-family: "Playfair Display", serif; */
   font-size: 2rem;
   font-weight: 600;
   color: #111827;
@@ -150,7 +162,7 @@
 
 .timeline-description {
   font-size: 1rem;
-  color: #6B7280;
+  color: #6b7280;
   line-height: 1.7;
   font-weight: 400;
 }
@@ -158,7 +170,7 @@
 /* Road Ahead Section */
 .road-ahead-section {
   padding: 80px 20px;
-  background: linear-gradient(135deg, #F5F1E8 0%, #FFFBDE 100%);
+  background: linear-gradient(135deg, #f5f1e8 0%, #fffbde 100%);
   text-align: center;
 }
 
@@ -168,7 +180,7 @@
 }
 
 .road-ahead-title {
-  font-family: 'Playfair Display', serif;
+  /* font-family: "Playfair Display", serif; */
   font-size: 2.5rem;
   font-weight: 600;
   color: #111827;
@@ -178,12 +190,12 @@
 
 .road-ahead-title::before,
 .road-ahead-title::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 50%;
   width: 80px;
   height: 2px;
-  background-color: #D4AF37;
+  background-color: #d4af37;
 }
 
 .road-ahead-title::before {
@@ -196,7 +208,7 @@
 
 .road-ahead-description {
   font-size: 1.1rem;
-  color: #6B7280;
+  color: #6b7280;
   line-height: 1.8;
   font-weight: 400;
 }
@@ -213,7 +225,7 @@
 }
 
 .highlights-title {
-  font-family: 'Playfair Display', serif;
+  /* font-family: "Playfair Display", serif; */
   font-size: 2.5rem;
   font-weight: 600;
   color: #111827;
@@ -223,12 +235,12 @@
 
 .highlights-title::before,
 .highlights-title::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 50%;
   width: 80px;
   height: 2px;
-  background-color: #D4AF37;
+  background-color: #d4af37;
 }
 
 .highlights-title::before {
@@ -260,7 +272,7 @@
 }
 
 .action-button {
-  background: linear-gradient(135deg, #D4AF37, #B8860B);
+  background: linear-gradient(135deg, #d4af37, #b8860b);
   color: white;
   border: none;
   padding: 15px 30px;
@@ -276,7 +288,7 @@
 .action-button:hover {
   transform: translateY(-2px);
   box-shadow: 0 8px 25px rgba(212, 175, 55, 0.4);
-  background: linear-gradient(135deg, #B8860B, #D4AF37);
+  background: linear-gradient(135deg, #b8860b, #d4af37);
 }
 
 .action-button:active {
@@ -285,31 +297,36 @@
 
 /* Responsive */
 @media (max-width: 900px) {
-  .timeline-item { 
-    grid-template-columns: 1fr; 
-    padding: 28px 0; 
+  .timeline-item {
+    grid-template-columns: 1fr;
+    padding: 28px 0;
   }
 
   /* Move the center line to the left for mobile */
-  .timeline-container::before { left: 30px; }
+  .timeline-container::before {
+    left: 30px;
+  }
 
   /* Center the dot on the line for each item */
-  .timeline-line { left: 30px; top: 50%; }
+  .timeline-line {
+    left: 30px;
+    top: 50%;
+  }
 
   /* All items stack; content sits to the right of the line */
   .timeline-item:nth-child(odd) .timeline-content,
-  .timeline-item:nth-child(even) .timeline-content { 
-    grid-column: 1; 
-    align-items: flex-start; 
-    text-align: left; 
-    padding: 0; 
+  .timeline-item:nth-child(even) .timeline-content {
+    grid-column: 1;
+    align-items: flex-start;
+    text-align: left;
+    padding: 0;
     margin-left: calc(30px + 10px + 16px); /* line + dot radius + gutter */
     max-width: 100%;
   }
 
-  .timeline-image { 
-    width: 100%; 
-    height: 220px; 
+  .timeline-image {
+    width: 100%;
+    height: 220px;
   }
 }
 
@@ -318,12 +335,12 @@
   .hero-title {
     font-size: 2.5rem;
   }
-  
+
   .hero-title::before,
   .hero-title::after {
     display: none;
   }
-  
+
   .road-ahead-title::before,
   .road-ahead-title::after,
   .highlights-title::before,
@@ -339,15 +356,15 @@
   .highlights-section {
     padding: 40px 15px;
   }
-  
+
   .hero-title {
     font-size: 2rem;
   }
-  
+
   .timeline-title {
     font-size: 1.5rem;
   }
-  
+
   .road-ahead-title,
   .highlights-title {
     font-size: 2rem;
