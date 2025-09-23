@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <div>
       <Overview></Overview>
-      <OfferBanner message={"Dussehra Offer"}></OfferBanner>
+      <OfferBanner message={"Pre-order now for Dussehra! "}></OfferBanner>
       <SocialMedia></SocialMedia>
       <FoodItemCarousel></FoodItemCarousel>
       <CateringForm></CateringForm>
