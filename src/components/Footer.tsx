@@ -24,7 +24,7 @@ const Footer = () => {
           </Col>
           <Col md={6} className="text-center mb-3 mb-md-0">
             <p>
-              <strong>Opening hours:</strong>
+              <strong>Opening hours: </strong>
               Everyday 10-7
             </p>
 

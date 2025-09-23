@@ -3,7 +3,6 @@ import SocialMedia from "./SocialMedia";
 import FoodItemCarousel from "./FoodItemCarousel";
 import CateringForm from "./CateringForm";
 import AdditionalServices from "./AdditionalServices";
-import Footer from "./Footer";
 
 const Home = () => {
   return (
@@ -13,7 +12,6 @@ const Home = () => {
       <FoodItemCarousel></FoodItemCarousel>
       <CateringForm></CateringForm>
       <AdditionalServices></AdditionalServices>
-      <Footer></Footer>
     </div>
   );
 };

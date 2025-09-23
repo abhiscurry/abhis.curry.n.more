@@ -32,7 +32,7 @@ const FoodMenu = () => {
                                     display: "flex",
                                     justifyContent: "space-between",
                                   }}
-                                  className="mx-2"
+                                  className=""
                                 >
                                   <div className={styles.itemTitle}>
                                     {item.title} <sub> {item.quantity}</sub>

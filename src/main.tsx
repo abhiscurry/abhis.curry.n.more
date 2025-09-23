@@ -8,10 +8,14 @@ import React from "react";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import Navbar from "./components/Navbar.tsx";
 import Banner from "./components/Banner.tsx";
+import Footer from "./components/Footer.tsx";
+import "react-datepicker/dist/react-datepicker.css";
+import ScrollToTop from "./components/ScrollToTop.tsx";
 
 createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <Router>
+      <ScrollToTop />
       {/* <OfferBanner
         message="20% OFF all order this weekend. Use code WALL20 "
         pillText="Grand Opening"
@@ -20,6 +24,7 @@ createRoot(document.getElementById("root")!).render(
       <Navbar />
       <Banner position="bottom" />
       <App />
+      <Footer></Footer>
     </Router>
   </React.StrictMode>
 );

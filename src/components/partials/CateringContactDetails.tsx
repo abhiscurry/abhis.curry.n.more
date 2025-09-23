@@ -10,7 +10,7 @@ const CateringContactDetails = () => {
             <i className="fas fa-phone"></i>
           </div>
           <div>
-            <h6>(902)478-4148</h6>
+            <h6>(902) 478-4148</h6>
             <small>Call or text anytime</small>
           </div>
         </div>

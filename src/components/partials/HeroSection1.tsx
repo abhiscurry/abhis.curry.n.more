@@ -2,6 +2,12 @@ import { Alert, Button, Nav } from "react-bootstrap";
 import style from "./HeroSection1.module.scss";
 import { NavLink } from "react-router-dom";
 const OverviewSection1 = () => {
+  const scrollToSection = (id: string) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
     <div>
       <div className={`${style.heading}`}>
@@ -25,9 +31,13 @@ const OverviewSection1 = () => {
         <Nav.Link as={NavLink} to="/menu" className="navbar-brand">
           <Button className="custom-primary-btn m-1">View Menu</Button>
         </Nav.Link>
-        <Nav.Link as={NavLink} to="/" className="navbar-brand">
-          <Button className="custom-secondary-btn m-1">Order Catering</Button>
-        </Nav.Link>
+
+        <Button
+          className="custom-secondary-btn m-1"
+          onClick={() => scrollToSection("cateringForm")}
+        >
+          Order Catering
+        </Button>
       </div>
 
       <div className="alertLocation">

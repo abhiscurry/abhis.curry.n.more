@@ -2,7 +2,8 @@ import { useState } from "react";
 import { Alert, Button, Col, Container, Form, Row } from "react-bootstrap";
 import emailjs from "@emailjs/browser";
 import styles from "./GetQuote.module.scss";
-import { useForm, type SubmitHandler } from "react-hook-form";
+import { Controller, useForm, type SubmitHandler } from "react-hook-form";
+import { DatePicker } from "react-datepicker";
 
 interface FormData {
   fullName: string;
@@ -20,13 +21,14 @@ const GetQuote = () => {
     register,
     handleSubmit,
     reset,
-    // watch,
+    watch,
+    control,
     formState: { errors, isSubmitting },
   } = useForm<FormData>();
 
   const [status, setStatus] = useState<string | null>(null);
   // const [submitSuccess, setSubmitSuccess] = useState(false);
-
+  const [selectedDate, setSelectedDate] = useState(new Date());
   const onSubmit: SubmitHandler<FormData> = async (formData) => {
     // Simulate API call
 
@@ -38,7 +40,7 @@ const GetQuote = () => {
           name: formData.fullName,
           email: formData.email,
           phone: formData.phone,
-          eventDate: formData.eventDate,
+          eventDate: formatDate(formData.eventDate),
           eventType: formData.eventType,
           numberOfGuest: formData.numberOfGuests,
           typeOfBooking: formData.typeOfBooking,
@@ -188,22 +190,68 @@ const GetQuote = () => {
           </Col>{" "}
           <Col className="mb-3" xs={12} md={6}>
             <Form.Group controlId="formEventDate">
-              <Form.Label className={styles.customFormLabel}>
+              {/* <Form.Label className={styles.customFormLabel}>
                 Event Date
-              </Form.Label>
-              <Form.Control
+              </Form.Label> */}
+
+              <Controller
+                name="eventDate"
+                control={control}
+                rules={{ required: "Please select an event date" }}
+                render={({ field, fieldState }) => (
+                  <div className="mb-3">
+                    <label className={`${styles.customFormLabel} form-label`}>
+                      Event Date
+                    </label>
+                    <div className="input-group">
+                      <DatePicker
+                        {...field}
+                        selected={field.value}
+                        onChange={(date) => field.onChange(date)}
+                        minDate={minDate}
+                        placeholderText="Select a date"
+                        className={`form-control ${
+                          fieldState.error ? "is-invalid" : ""
+                        }`}
+                        dateFormat="yyyy-MM-dd"
+                      />
+                    </div>
+                    {fieldState.error && (
+                      <div className="text-danger small mt-1">
+                        {fieldState.error.message}
+                      </div>
+                    )}
+                  </div>
+                )}
+              />
+              {/* <Form.Control.Feedback type="invalid">
+                {errors.eventDate?.message}
+              </Form.Control.Feedback> */}
+
+              {/* <DatePicker
+                selected={selectedDate}
+                onChange={(date) => date && setSelectedDate(date)}
+                minDate={formatDate(minDate)}
+                className="form-control"
+                placeholderText="Select Event Date"
+              /> */}
+
+              {/* <Form.Control
                 type="date"
                 {...register("eventDate", {
-                  required: "Please select an event date", // ← ✅ Required validation
+                  required: "Please select an event date",
                 })}
+                min={"2025-09-22"}
                 placeholder="yyyy-mm-dd"
-                min={formatDate(minDate)}
                 isInvalid={!!errors.eventDate}
-                style={{ color: "#808080" }}
+                style={{ color: watch("eventDate") ? "#212529" : "#aaa" }}
               />
-              <Form.Control.Feedback type="invalid">
+              {!watch("eventDate") && (
+                <span className="date-placeholder">e.g. 2025-06-15</span>
+              )} */}
+              {/* <Form.Control.Feedback type="invalid">
                 {errors.eventDate?.message}
-              </Form.Control.Feedback>
+              </Form.Control.Feedback> */}
             </Form.Group>
           </Col>
         </Row>
@@ -246,6 +294,7 @@ const GetQuote = () => {
                 <option value={"Wedding"}>Wedding</option>
                 <option value={"Party"}>Party</option>
                 <option value={"Corporate"}>Corporate</option>
+                <option value={"Other"}>Other</option>
               </Form.Select>
               <Form.Control.Feedback type="invalid">
                 {errors.eventType?.message}

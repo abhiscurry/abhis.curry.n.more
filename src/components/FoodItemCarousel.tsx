@@ -52,7 +52,7 @@ const MenuCarousel = () => {
                     src={image.imagePath}
                     alt={`Slide ${index + 1}`}
                     height={600}
-                    width={390}
+                    width={340}
                   />
                 </a>
               </SplideSlide>
