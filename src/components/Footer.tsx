@@ -15,12 +15,28 @@ const Footer = () => {
               }}
             >
               <Image src={logo} height={75} width={75}></Image>
-              <h4 style={{ margin: 0 }} className={` ${styles.brandName}`}>
-                Abhis Curry N More
-              </h4>
-            </div>
 
-            <div className="mt-2 socialMediaIcons"></div>
+              <Col>
+                <Row>
+                  <h4 style={{ margin: 0 }} className={` ${styles.brandName}`}>
+                    Abhis Curry N More
+                  </h4>
+                </Row>
+                <Row>
+                  <div className={styles.socialIcons}>
+                    <a href="https://www.instagram.com/abhiscurrynmore/">
+                      <i className="fa-brands fa-instagram m-1"></i>
+                    </a>
+                    <a href="tel:(902) 478-4148">
+                      <i className="fa-solid fa-phone m-1"></i>
+                    </a>
+                    <a href="mailto:abhiscurrynmore@gmail.com">
+                      <i className="fa-solid fa-envelope m-1"></i>
+                    </a>
+                  </div>
+                </Row>
+              </Col>
+            </div>
           </Col>
           <Col md={6} className="text-center mb-3 mb-md-0">
             <p>
