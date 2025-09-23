@@ -21,14 +21,13 @@ const GetQuote = () => {
     register,
     handleSubmit,
     reset,
-    watch,
     control,
     formState: { errors, isSubmitting },
   } = useForm<FormData>();
 
   const [status, setStatus] = useState<string | null>(null);
   // const [submitSuccess, setSubmitSuccess] = useState(false);
-  const [selectedDate, setSelectedDate] = useState(new Date());
+
   const onSubmit: SubmitHandler<FormData> = async (formData) => {
     // Simulate API call
 
@@ -204,6 +203,7 @@ const GetQuote = () => {
                       Event Date
                     </label>
                     <div className="input-group">
+                      {/* @ts-ignore */}
                       <DatePicker
                         {...field}
                         selected={field.value}

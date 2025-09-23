@@ -3,12 +3,6 @@ import "./AboutUs.css";
 import { NavLink } from "react-router-dom";
 
 const AboutUs = () => {
-  const scrollToSection = (id: string) => {
-    const element = document.getElementById(id);
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-    }
-  };
   const timelineData = [
     {
       year: "Legacy",
