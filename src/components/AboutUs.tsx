@@ -1,4 +1,4 @@
-import { Nav } from "react-bootstrap";
+import { Col, Nav } from "react-bootstrap";
 import "./AboutUs.css";
 import { NavLink } from "react-router-dom";
 
@@ -111,20 +111,30 @@ const AboutUs = () => {
             <img
               src="../images/aboutUs/New-home.png"
               alt="Restaurant highlights"
-              height="100%"
-              width="100%"
             />
           </div>
-          <div className="action-buttons">
-            <Nav.Link as={NavLink} to="/menu" className="navbar-brand">
-              <button className="action-button">View Menu</button>
-            </Nav.Link>
-            <Nav.Link as={NavLink} to="/" className="navbar-brand">
-              <button className="action-button">Home</button>
-            </Nav.Link>
-            <a href="https://www.google.com/viewer/chooseprovider?mid=/g/11q33zvkz5&g2lbs=AO8LyOI65lpBhTXWeYuolbKx3qz1LVN5TrmVLSybnA12n6Bhd22EETdrmnqPTvGQH2U1GS4zIgSlpwsumCAynLXSohkQAVsBIA%3D%3D&hl=en-CA&gl=ca&ssta=1&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=search&gei=AF3LaOjJHrDn5NoPwqaosA4&ei=AF3LaOjJHrDn5NoPwqaosA4&fo_s=OA&opi=89978449&ebb=1&foub=mcpp&orderType=2">
-              <button className="action-button">Order Online</button>
-            </a>
+          <div className="row">
+            <Col>
+              <Nav.Link as={NavLink} to="/menu" className="navbar-brand">
+                <button className="custom-primary-btn  btn py-2 py-md-3 px-2 px-md-4 fs-6 fs-md-5">
+                  View Menu
+                </button>
+              </Nav.Link>
+            </Col>
+            <Col>
+              <Nav.Link as={NavLink} to="/" className="navbar-brand">
+                <button className="custom-primary-btn  btn  py-2 py-md-3 px-2 px-md-4 fs-6 fs-md-5">
+                  Home
+                </button>
+              </Nav.Link>
+            </Col>
+            <Col>
+              <a href="https://www.google.com/viewer/chooseprovider?mid=/g/11q33zvkz5&g2lbs=AO8LyOI65lpBhTXWeYuolbKx3qz1LVN5TrmVLSybnA12n6Bhd22EETdrmnqPTvGQH2U1GS4zIgSlpwsumCAynLXSohkQAVsBIA%3D%3D&hl=en-CA&gl=ca&ssta=1&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=search&gei=AF3LaOjJHrDn5NoPwqaosA4&ei=AF3LaOjJHrDn5NoPwqaosA4&fo_s=OA&opi=89978449&ebb=1&foub=mcpp&orderType=2">
+                <button className="custom-primary-btn  btn py-2 py-md-3 px-2 px-md-4 fs-6 fs-md-5">
+                  Order Online
+                </button>
+              </a>
+            </Col>
           </div>
         </div>
       </div>

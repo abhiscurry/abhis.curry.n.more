@@ -3,58 +3,67 @@ import styles from "./Footer.module.scss";
 import logo from "/images/logo.png";
 const Footer = () => {
   return (
-    <footer className={`${styles.footer} mt-5`}>
+    <footer className={`${styles.footer} mt-5 pb-3`}>
       <Container className="pt-5">
-        <Row className="align-items-center">
-          <Col md={6} className="text-center text-md-start mb-3 mb-md-0">
-            <div
-              style={{
-                display: "inline-flex",
-                alignItems: "center",
-                gap: "10px",
-              }}
-            >
-              <Image src={logo} height={75} width={75}></Image>
+        <Row className="align-items-center justify-content-around">
+          <Col xs="auto" className="d-flex align-items-center gap-3">
+            <img
+              src={logo}
+              alt="Abhis Curry N More"
+              width={85}
+              height={85}
+              className="rounded-circle"
+            />
 
-              <Col>
-                <Row>
-                  <h4 style={{ margin: 0 }} className={` ${styles.brandName}`}>
-                    Abhis Curry N More
-                  </h4>
-                </Row>
-                <Row>
-                  <div
-                    className={`${styles.socialIcons} ${styles.footerLinks} py-2`}
-                  >
-                    <a href="https://www.instagram.com/abhiscurrynmore/">
-                      <i className="fa-brands fa-instagram m-1"></i>
-                    </a>
-                    <a href="tel:(902) 478-4148">
-                      <i className="fa-solid fa-phone m-1"></i>
-                    </a>
-                    <a href="mailto:abhiscurrynmore@gmail.com">
-                      <i className="fa-solid fa-envelope m-1"></i>
-                    </a>
-                  </div>
-                </Row>
-              </Col>
+            <div>
+              <h5 className="mb-0 text-danger">Abhis Curry N More</h5>
+
+              <div className="d-flex gap-3 mt-2">
+                <a href="#" className="text-danger">
+                  <i className="fa-brands fa-instagram m-1"></i>
+                </a>
+                <a href="tel:+1234567890" className="text-danger">
+                  <i className="fa-solid fa-phone m-1"></i>
+                </a>
+                <a href="mailto:info@abhiscurry.com" className="text-danger">
+                  <i className="fa-solid fa-envelope m-1"></i>
+                </a>
+              </div>
             </div>
           </Col>
-          <Col md={6} className="text-center mb-3 mb-md-0">
-            <p>
-              <strong>Opening hours: </strong>
-              Everyday 10-7
-            </p>
 
-            <p className={styles.footerLinks}>
-              <a href="https://www.google.com/maps/place/1536+Granville+St,+Halifax,+NS+B3J+1W8/@44.6450573,-63.5750447,16z/data=!3m1!4b1!4m6!3m5!1s0x4b5a2234a7da98a7:0x54b76b5f0c194fb2!8m2!3d44.6450535!4d-63.5724698!16s%2Fg%2F11r_m6nxcx?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D">
-                <strong>Location:</strong>
-                <br />
-                1536 Granville St,
-                <br />
-                Halifax, NS. B3J 1W8, Canada
-              </a>
-            </p>
+          <Col
+            xs="auto"
+            className="text-start d-flex justify-content-center justify-content-md-end"
+          >
+            <div className="text-center text-md-start">
+              <div className="text-muted">
+                <strong>Opening hours:</strong>
+                <div className="mt-2">
+                  Monday : 10:00 AM - 7:00 PM
+                  <br />
+                  Tuesday : Closed
+                  <br />
+                  Wednesday - Sunday : 10:00 PM - 7:00 PM
+                </div>
+              </div>
+
+              <div className="mt-3">
+                <strong className="text-danger">Location:</strong>
+                <div className="mt-1">
+                  <a
+                    href="https://maps.google.com/?q=1536+Granville+St,+Halifax,+NS,+B3J+1W8,+Canada"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-danger text-decoration-none"
+                  >
+                    1536 Granville St,
+                    <br />
+                    Halifax, NS, B3J 1W8, Canada
+                  </a>
+                </div>
+              </div>
+            </div>
           </Col>
         </Row>
       </Container>

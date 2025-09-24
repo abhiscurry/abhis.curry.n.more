@@ -15,3 +15,12 @@
 .foodItemCarouselContainer {
   background: linear-gradient(90deg, #fffbde 44.38%, #ffd95d 201.72%);
 }
+
+.reelsThumbnail {
+  height: 600px;
+  width: 390px;
+  @media (max-width: 576px) {
+    height: 600px;
+    width: 350px;
+  }
+}

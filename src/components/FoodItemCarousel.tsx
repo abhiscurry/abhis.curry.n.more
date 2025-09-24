@@ -51,8 +51,7 @@ const MenuCarousel = () => {
                   <img
                     src={image.imagePath}
                     alt={`Slide ${index + 1}`}
-                    height={600}
-                    width={340}
+                    className={styles.reelsThumbnail}
                   />
                 </a>
               </SplideSlide>
