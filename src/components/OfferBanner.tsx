@@ -22,7 +22,7 @@ const OfferBanner = ({ message }: Props) => {
           className="custom-secondary-btn m-1"
           onClick={() => scrollToSection("cateringForm")}
         >
-          Order Catering
+          Pre-Order Now
         </Button>
       </h3>
     </div>
