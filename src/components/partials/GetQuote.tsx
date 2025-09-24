@@ -189,10 +189,6 @@ const GetQuote = () => {
           </Col>{" "}
           <Col className="mb-3" xs={12} md={6}>
             <Form.Group controlId="formEventDate">
-              {/* <Form.Label className={styles.customFormLabel}>
-                Event Date
-              </Form.Label> */}
-
               <Controller
                 name="eventDate"
                 control={control}
@@ -213,6 +209,7 @@ const GetQuote = () => {
                         className={`form-control ${
                           fieldState.error ? "is-invalid" : ""
                         }`}
+                        wrapperClassName="w-100"
                         dateFormat="yyyy-MM-dd"
                       />
                     </div>
