@@ -210,7 +210,7 @@ with ketchup, mayonnaise and garlic-mint sauce.`,
       },
       {
         id: 3,
-        image: "../images/menu-images/Veggie-fries.png",
+        image: "../images/menu-images/VeggieFries.png",
         title: "Veggie Fries",
         description: `Classic Fries seasoned with a homemade
         blend, topped with fresh tomato, green onion and secret sauce.`,
