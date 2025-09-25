@@ -18,12 +18,9 @@ const OfferBanner = ({ message }: Props) => {
     <div className={styles.offerBanner}>
       <h3>
         {message}
-        <Button
-          className="custom-secondary-btn m-1"
-          onClick={() => scrollToSection("cateringForm")}
-        >
-          Pre-Order Now
-        </Button>
+        <a href="https://form.jotform.com/252667321890058">
+          <Button className="custom-secondary-btn m-1">Pre-Order Now</Button>
+        </a>
       </h3>
     </div>
   );
