@@ -8,12 +8,7 @@ interface Props {
 
 const OfferBanner = ({ message }: Props) => {
   if (!message) return null; // Don't render if no message
-  const scrollToSection = (id: string) => {
-    const element = document.getElementById(id);
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-    }
-  };
+
   return (
     <div className={styles.offerBanner}>
       <h3>
