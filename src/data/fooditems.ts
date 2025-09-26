@@ -186,7 +186,7 @@ with ketchup, mayonnaise and garlic-mint sauce.`,
       },
       {
         id: 4,
-        image: "../images/menu-images/Spicy-vada-burger.png",
+        image: "../images/menu-images/Burger-fries-combo.png",
         title: "COMBO: Burger+Fries",
         description: `Juicy grilled burger served with crispy golden fries. Make it a meal with a refreshing pop for just $.99 extra.`,
         price: "$8.99",
