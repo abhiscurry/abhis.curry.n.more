@@ -6,10 +6,15 @@ import AdditionalServices from "./AdditionalServices";
 import OfferBanner from "./OfferBanner";
 
 const Home = () => {
+  const offerMessage = "Diwali Special Coming Soon!";
+
   return (
     <div>
       <Overview></Overview>
-      <OfferBanner message={"Pre-order now for Dusshera! "}></OfferBanner>
+      <OfferBanner
+        message={offerMessage}
+        isOfferButtonEnabled={false}
+      ></OfferBanner>
       <SocialMedia></SocialMedia>
       <FoodItemCarousel></FoodItemCarousel>
       <CateringForm></CateringForm>
