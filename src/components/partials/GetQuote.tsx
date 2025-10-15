@@ -70,45 +70,6 @@ const GetQuote = () => {
     return `${year}-${month}-${day}`;
   };
 
-  // const handleSubmit = (e: React.FormEvent) => {
-  //   e.preventDefault();
-
-  //   // EmailJS send function
-  //   emailjs
-  //     .send(
-  //       "service_qhrfbeo", // Replace with your EmailJS Service ID (e.g., service_abc123)
-  //       "template_a5latvb", // Replace with your EmailJS Template ID (e.g., template_xyz789)
-  //       {
-  //         name: formData.fullName,
-  //         email: formData.email,
-  //         phone: formData.phone,
-  //         eventDate: formData.eventDate,
-  //         eventType: formData.eventType,
-  //         numberOfGuest: formData.numberOfGuests,
-  //         typeOfBooking: formData.typeOfBooking,
-  //         message: formData.additionalDetails,
-  //       },
-  //       "FNaajbOs50HQtbe7T" // Replace with your EmailJS Public Key (from Account settings)
-  //     )
-  //     .then(
-  //       (result) => {
-  //         setStatus("Email sent successfully!");
-  //         setFormData({
-  //           fullName: "",
-  //           email: "",
-  //           phone: "",
-  //           eventDate: "",
-  //           numberOfGuests: "",
-  //           eventType: "",
-  //           typeOfBooking: "",
-  //           additionalDetails: "",
-  //         });
-  //       },
-  //       (error) => {
-  //         setStatus(`Failed to send email: ${error.text}`);
-  //       }
-  //     );
-  // };
   return (
     <Container>
       <h2>Get a Quote</h2>
@@ -221,34 +182,6 @@ const GetQuote = () => {
                   </div>
                 )}
               />
-              {/* <Form.Control.Feedback type="invalid">
-                {errors.eventDate?.message}
-              </Form.Control.Feedback> */}
-
-              {/* <DatePicker
-                selected={selectedDate}
-                onChange={(date) => date && setSelectedDate(date)}
-                minDate={formatDate(minDate)}
-                className="form-control"
-                placeholderText="Select Event Date"
-              /> */}
-
-              {/* <Form.Control
-                type="date"
-                {...register("eventDate", {
-                  required: "Please select an event date",
-                })}
-                min={"2025-09-22"}
-                placeholder="yyyy-mm-dd"
-                isInvalid={!!errors.eventDate}
-                style={{ color: watch("eventDate") ? "#212529" : "#aaa" }}
-              />
-              {!watch("eventDate") && (
-                <span className="date-placeholder">e.g. 2025-06-15</span>
-              )} */}
-              {/* <Form.Control.Feedback type="invalid">
-                {errors.eventDate?.message}
-              </Form.Control.Feedback> */}
             </Form.Group>
           </Col>
         </Row>
