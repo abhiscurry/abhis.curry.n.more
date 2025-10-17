@@ -65,74 +65,7 @@ Served with homemade chutney.`,
         quantity: "(300gm)",
         price: "$9.99",
       },
-    ],
-  },
-  {
-    id: 1,
-    title: "Taste Of Gujarat (All Day Breakfast)",
-    items: [
-      {
-        id: 1,
-        image: "../images/menu-images/Fafda.png",
-        title: "Fafda",
-        description: `Crispy, savoury strips of chickpea flour dough infused
-with carom seeds. Deep-fried to perfection and served
-with a mildly sweet and tangy chutney.`,
-        price: "$11.49",
-        quantity: "(150gm)",
-        isSignature: true,
-      },
-      {
-        id: 2,
-        image: "../images/menu-images/Jalebi.png",
-        title: "Jalebi",
-        description: `Crispy and juicy spiral-shaped dessert made from all-
-purpose flour, deep-fried and soaked in fragrant sugar
-syrup. Sweet, cruncy and irrestistible!`,
-        price: "$4.99/$8.49",
-        quantity: "(125gm/250gm)",
-        isSignature: true,
-      },
-      {
-        id: 3,
-        image: "../images/menu-images/Nylon-Khaman.png",
-        title: "Nylon Khaman",
-        description: `Ultra-soft, spongy, and juicy steamed chickpea flour
-cakes with a sweet and tangy taste. Garnished with
-mustard seeds, green chillies, and fresh cilantro.`,
-        price: "$8.99",
-        quantity: "(300gm)",
-      },
-      {
-        id: 4,
-        image: "../images/menu-images/Vatidal-Khaman.png",
-        title: "Vati Dal Khaman",
-        description: `Ultra-soft, spongy, and juicy steamed chickpea flour
-cakes with a sweet and tangy taste. Garnished with
-mustard seeds, green chillies, and fresh cilantro.`,
-        quantity: "(300gm)",
-        price: "$9.99",
-      },
-      {
-        id: 5,
-        image: "../images/menu-images/Sev-Khamani.png",
-        title: "Sev Khamani",
-        description: `Sweet and mildly spiced steamed chickpea crumble,
-topped with crispy sev, mustard seeds, green chillies,
-and fresh cilantro. Served with homemade chutney.`,
-        quantity: "(300gm)",
-        price: "$9.99",
-      },
-      {
-        id: 6,
-        image: "../images/menu-images/Idada.png",
-        title: "Idada",
-        description: `Soft, steamed rice and black lentil cakes, garnished
-with mustard seeds, green chillies, and fresh cilantro.
-Served with homemade chutney.`,
-        quantity: "(300gm)",
-        price: "$9.99",
-      },
+
       {
     id: 2,
     title: "Bulk Order",
@@ -178,7 +111,7 @@ and fresh cilantro. Served with homemade chutney.`,
         price: "$50.00",
       },
       {
-        id: 2,
+        id: 5,
         image: "../images/menu-images/Jalebi.png",
         title: "Jalebi",
         description: `Crispy and juicy spiral-shaped dessert made from all-
@@ -192,6 +125,7 @@ syrup. Sweet, cruncy and irrestistible!`,
   },
     ],
   },
+  
   
   {
     id: 2,
