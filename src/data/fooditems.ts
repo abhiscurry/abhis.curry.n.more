@@ -65,8 +65,10 @@ Served with homemade chutney.`,
         quantity: "(300gm)",
         price: "$9.99",
       },
-
-      {
+    ],
+  },
+  
+  {
     id: 2,
     title: "Bulk Order",
     items: [
@@ -123,12 +125,8 @@ syrup. Sweet, cruncy and irrestistible!`,
       },
     ],
   },
-    ],
-  },
-  
-  
   {
-    id: 2,
+    id: 3,
     title: "INDIAN STREET FOOD",
     items: [
       {
@@ -217,7 +215,7 @@ chutneys, onions, and flavourful spices.`,
     ],
   },
   {
-    id: 3,
+    id: 4,
     title: "Twisted Burgers",
     items: [
       {
@@ -263,7 +261,7 @@ with ketchup, mayonnaise and garlic-mint sauce.`,
     ],
   },
   {
-    id: 4,
+    id: 5,
     title: "Fries",
     items: [
       {
@@ -314,7 +312,7 @@ with ketchup, mayonnaise and garlic-mint sauce.`,
     ],
   },
   {
-    id: 5,
+    id: 6,
     title: "Fusion Naan Tacos",
     items: [
       {
@@ -408,7 +406,7 @@ wrapped in a naan.`,
     ],
   },
   {
-    id: 7,
+    id: 8,
     title: "Curry Combo",
     items: [
       {
@@ -478,7 +476,7 @@ alongside steamed basmati rice or 2 soft and fluffy Naan. Add pop for just $.99 
     ],
   },
   {
-    id: 8,
+    id: 9,
     title: "Beverages",
     items: [
       {
