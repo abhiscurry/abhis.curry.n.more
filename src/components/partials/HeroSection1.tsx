@@ -53,7 +53,7 @@ const OverviewSection1 = () => {
             </a>
             <br /> */}
             {/*(Only open on weekends 10AM to 6PM) */}
-            < div className="text-danger text-decoration-none" Closed for the season.</div> 
+            < div className="text-danger text-decoration-none">Closed for the season.</div>
           <br />See you in Spring 2026.
           </div>
         </Alert>
