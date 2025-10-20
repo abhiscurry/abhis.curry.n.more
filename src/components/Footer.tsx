@@ -22,10 +22,10 @@ const Footer = () => {
                 <a href="#" className="text-danger">
                   <i className="fa-brands fa-instagram m-1"></i>
                 </a>
-                <a href="tel:+1234567890" className="text-danger">
+                <a href="tel:+19024569999" className="text-danger">
                   <i className="fa-solid fa-phone m-1"></i>
                 </a>
-                <a href="mailto:info@abhiscurry.com" className="text-danger">
+                <a href="mailto:abhiscurrynmore@gmail.com" className="text-danger">
                   <i className="fa-solid fa-envelope m-1"></i>
                 </a>
               </div>
