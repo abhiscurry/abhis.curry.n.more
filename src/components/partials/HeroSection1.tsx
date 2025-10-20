@@ -50,10 +50,11 @@ const OverviewSection1 = () => {
                     rel="noopener noreferrer"
                     className="text-danger text-decoration-none">
               650 Sackville Dr, Lower Sackville, NS B4C 2S3
-            </a>*/}
-            <br /> 
+            </a>
+            <br /> */}
             {/*(Only open on weekends 10AM to 6PM) */}
-            Closed for the season. See you in Spring 2026.
+            < div className="text-danger text-decoration-none" Closed for the season.</div> 
+          <br />See you in Spring 2026.
           </div>
         </Alert>
       </div>
