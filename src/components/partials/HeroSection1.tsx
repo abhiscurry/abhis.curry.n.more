@@ -46,12 +46,14 @@ const OverviewSection1 = () => {
             <b>Sackville Food Truck Location</b>
           </div>
           <div className="foodTruckLocation">
-            /*<a href="https://www.google.com/maps/place/650+Sackville+Dr,+Lower+Sackville,+NS+B4C+2S3/@44.7692283,-63.6913776,17z/data=!3m1!4b1!4m6!3m5!1s0x4b5988ebdb9364bb:0x39c2962b230415dd!8m2!3d44.7692245!4d-63.6888027!16s%2Fg%2F11b8vfh093?entry=ttu&g_ep=EgoyMDI1MDkyMi4wIKXMDSoASAFQAw%3D%3D" target="_blank"
+            {/*<a href="https://www.google.com/maps/place/650+Sackville+Dr,+Lower+Sackville,+NS+B4C+2S3/@44.7692283,-63.6913776,17z/data=!3m1!4b1!4m6!3m5!1s0x4b5988ebdb9364bb:0x39c2962b230415dd!8m2!3d44.7692245!4d-63.6888027!16s%2Fg%2F11b8vfh093?entry=ttu&g_ep=EgoyMDI1MDkyMi4wIKXMDSoASAFQAw%3D%3D" target="_blank"
                     rel="noopener noreferrer"
                     className="text-danger text-decoration-none">
               650 Sackville Dr, Lower Sackville, NS B4C 2S3
-            </a>*/
-            <br /> /*(Only open on weekends 10AM to 6PM)*/ Closed for the season. See you in Spring 2026.
+            </a>*/}
+            <br /> 
+            {/*(Only open on weekends 10AM to 6PM) */}
+            Closed for the season. See you in Spring 2026.
           </div>
         </Alert>
       </div>
