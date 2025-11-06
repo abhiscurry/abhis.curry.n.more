@@ -32,7 +32,7 @@ syrup. Sweet, cruncy and irrestistible!`,
         description: `Ultra-soft, spongy, and juicy steamed chickpea flour
 cakes with a sweet and tangy taste. Garnished with
 mustard seeds, green chillies, and fresh cilantro.`,
-        price: "$5.99/$8.99",
+        price: "$5.99/$9.99",
         quantity: "(150gm/300gm)",
       },
       {
