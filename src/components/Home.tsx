@@ -6,7 +6,7 @@ import AdditionalServices from "./AdditionalServices";
 import OfferBanner from "./OfferBanner";
 
 const Home = () => {
-  const offerMessage = "Diwali Special Coming Soon!";
+  const offerMessage = "Uttarayan Special Coming Soon!";
 
   return (
     <div>
