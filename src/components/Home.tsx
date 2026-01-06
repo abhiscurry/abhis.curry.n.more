@@ -6,14 +6,14 @@ import AdditionalServices from "./AdditionalServices";
 import OfferBanner from "./OfferBanner";
 
 const Home = () => {
-  const offerMessage = "Uttarayan Special Coming Soon!";
+  const offerMessage = "Pre-order now for Uttarayan Special!";
 
   return (
     <div>
       <Overview></Overview>
       <OfferBanner
         message={offerMessage}
-        isOfferButtonEnabled={false}
+        isOfferButtonEnabled={true}
       ></OfferBanner>
       <SocialMedia></SocialMedia>
       <FoodItemCarousel></FoodItemCarousel>
