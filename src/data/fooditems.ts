@@ -336,22 +336,22 @@ with ketchup, mayonnaise and garlic-mint sauce.`,
       // },
     ],
   },
-  {
-    id: 6,
-    title: "Fusion Naan Tacos",
-    items: [
-      {
-        id: 1,
-        image: "../images/menu-images/Veggie-Taco.png",
-        title: "Veggie Masala Naan Taco",
-        description: `Crispy bites of our secret potato
-stuffing recipe with chutneys,
-green onion, and masala spices,
-wrapped in a naan.`,
-        price: "$7.99",
-        quantity: "",
-        isSignature: true,
-      },
+  //{
+  //  id: 6,
+  //  title: "Fusion Naan Tacos",
+  //  items: [
+  //    {
+  //      id: 1,
+  //      image: "../images/menu-images/Veggie-Taco.png",
+  //     title: "Veggie Masala Naan Taco",
+  //      description: `Crispy bites of our secret potato
+// stuffing recipe with chutneys,
+//green onion, and masala spices,
+//wrapped in a naan.`,
+//        price: "$7.99",
+//        quantity: "",
+//        isSignature: true,
+//      },
       //       {
       //         id: 2,
       //         image: "../images/menu-images/Chickpea-masala-taco.png",
@@ -363,32 +363,73 @@ wrapped in a naan.`,
       //         quantity: "",
       //         isSignature: true,
       //       },
+//      {
+//        id: 3,
+  //      image: "../images/menu-images/Butter-chicken-Taco.png",
+    //    title: "Butter Chicken Naan Taco",
+      //  description: `Tender chicken simmered in
+//creamy tomato butter suace,
+//topped with fresh slaw & chutney,
+//served taco-style in soft naan.`,
+//        price: "$9.99",
+//        quantity: "",
+//      },
+//      {
+//        id: 4,
+//        image: "../images/menu-images/Paneer-taco.png",
+//        title: "Paneer Masala Naan Taco",
+//        description: `Juicy paneer cubes tossed in
+//spiced curry, layered with tangy
+//chutneys, crunchy slaw, and
+//wrapped in a naan.`,
+//        price: "$9.99",
+//        quantity: "",
+//      },
+//    ],
+//  },
+  {
+    id: 7,
+    title: "Naan Wraps",
+    items: [
+      {
+        id: 1,
+        image: "../images/menu-images/Veggie-wrap.png",
+        title: "Veggie Masala Wrap",
+        description: `A vibrant medley of garden-fresh vegetables sautéed in a fragrant blend of Indian spices. Tucked into a soft, toasted wrap with a layer of zesty mint chutney.`,
+        price: "$7.99",
+        quantity: "",
+        isSignature: true,
+      },
+      {
+        id: 2,
+        image: "../images/menu-images/paneer-wrap.png",
+        title: "Paneer Masala Wrap",
+        description: `Chunks of marinated paneer sautéed with peppers and onions in a rich masala blend. Wrapped warm with a tangy sauce.`,
+        price: "$9.99",
+        quantity: "",
+        isSignature: true,
+      },
       {
         id: 3,
-        image: "../images/menu-images/Butter-chicken-Taco.png",
-        title: "Butter Chicken Naan Taco",
-        description: `Tender chicken simmered in
-creamy tomato butter suace,
-topped with fresh slaw & chutney,
-served taco-style in soft naan.`,
+        image: "../images/menu-images/butter-chicken-wrap.png",
+        title: "Butter Chicken Wrap",
+        description: `Tender roasted chicken folded into a creamy, mildly sweet tomato butter sauce.`,
         price: "$9.99",
         quantity: "",
       },
-      {
-        id: 4,
-        image: "../images/menu-images/Paneer-taco.png",
-        title: "Paneer Masala Naan Taco",
-        description: `Juicy paneer cubes tossed in
-spiced curry, layered with tangy
-chutneys, crunchy slaw, and
-wrapped in a naan.`,
-        price: "$9.99",
-        quantity: "",
-      },
+//      {
+//        id: 4,
+//        image: "../images/menu-images/Paneer-tikka-poutine.png",
+//        title: "Paneer Masala Poutine",
+//        description: `Fries topped with grilled paneer tikka, cheese
+//        curds and spiced tikka masala gravy.`,
+//        price: "$14.99",
+//        quantity: "",
+//      },
     ],
   },
   {
-    id: 6,
+    id: 8,
     title: "Fusion Poutines",
     items: [
       {
@@ -431,7 +472,7 @@ wrapped in a naan.`,
     ],
   },
   {
-    id: 8,
+    id: 9,
     title: "Curry Combo",
     items: [
       {
@@ -501,7 +542,7 @@ alongside steamed basmati rice or 2 soft and fluffy Naan. Add pop for just $.99 
     ],
   },
   {
-    id: 9,
+    id: 6,
     title: "Beverages",
     items: [
       {
