@@ -15,7 +15,7 @@ const OfferBanner = ({ message, isOfferButtonEnabled }: Props) => {
       <h3>
         {message}
         {isOfferButtonEnabled && (
-          <a href="https://form.jotform.com/252667321890058" target="_blank">
+          <a href="https://form.jotform.com/260046102086042" target="_blank">
             <Button className="custom-secondary-btn m-1">Pre-Order Now</Button>
           </a>
         )}
