@@ -13,7 +13,7 @@ const Home = () => {
       <Overview></Overview>
       <OfferBanner
         message={offerMessage}
-        isOfferButtonEnabled={true}
+        isOfferButtonEnabled={false}
       ></OfferBanner>
       <SocialMedia></SocialMedia>
       <FoodItemCarousel></FoodItemCarousel>
