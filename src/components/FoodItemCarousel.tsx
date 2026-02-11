@@ -7,12 +7,12 @@ const MenuCarousel = () => {
   const images = [
     {
       id: 1,
-      url: "https://www.instagram.com/reel/DOBFZmODgIf/?igsh=MWNrZGtvajl3MmVrdQ==",
+      url: "https://www.instagram.com/reel/DSVTVneCSbF/?igsh=MW1pMGZ1azdlenYxeQ==",
       imagePath: "../images/reels/deepakbhaiFafda.png",
     },
     {
       id: 2,
-      url: "https://www.instagram.com/reel/DB3yeivpSq7/?igsh=anMwY2E0Z3Z5bnBw",
+      url: "https://www.instagram.com/reel/DSz79LnEYa9/?igsh=MTlkNDZqaWd6Mm10aw==",
       imagePath: "../images/reels/deepakbhaiJaleebi.png",
     },
     {
@@ -22,7 +22,7 @@ const MenuCarousel = () => {
     },
     {
       id: 4,
-      url: "https://www.instagram.com/reel/DJ7VPSdJvC_/?igsh=MXMzMjIweXNoanN2YQ==",
+      url: "https://www.instagram.com/reel/DR5CmRsiRaQ/?igsh=ZHM0Mm80bTZxODVq",
       imagePath: "../images/reels/burgar.png",
     },
   ];
