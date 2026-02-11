@@ -8,12 +8,12 @@ const MenuCarousel = () => {
     {
       id: 1,
       url: "https://www.instagram.com/reel/DSVTVneCSbF/?igsh=MW1pMGZ1azdlenYxeQ==",
-      imagePath: "../images/reels/deepakbhaiFafda.png",
+      imagePath: "../images/reels/Deepakbhai.png",
     },
     {
       id: 2,
       url: "https://www.instagram.com/reel/DSz79LnEYa9/?igsh=MTlkNDZqaWd6Mm10aw==",
-      imagePath: "../images/reels/deepakbhaiJaleebi.png",
+      imagePath: "../images/reels/Fooditems.png",
     },
     {
       id: 3,
@@ -23,7 +23,7 @@ const MenuCarousel = () => {
     {
       id: 4,
       url: "https://www.instagram.com/reel/DR5CmRsiRaQ/?igsh=ZHM0Mm80bTZxODVq",
-      imagePath: "../images/reels/burgar.png",
+      imagePath: "../images/reels/Fooditems2.png",
     },
   ];
 
