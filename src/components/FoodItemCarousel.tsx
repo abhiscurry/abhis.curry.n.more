@@ -17,13 +17,14 @@ const MenuCarousel = () => {
     },
     {
       id: 3,
-      url: "https://www.instagram.com/reel/DL_H0JJpYm6/?igsh=MTdubzQ5aHN2ODN5cw==",
-      imagePath: "../images/reels/foodTuck.png",
+      url: "https://www.instagram.com/reel/DR5CmRsiRaQ/?igsh=ZHM0Mm80bTZxODVq",
+      imagePath: "../images/reels/Fooditems2.png",
     },
     {
       id: 4,
-      url: "https://www.instagram.com/reel/DR5CmRsiRaQ/?igsh=ZHM0Mm80bTZxODVq",
-      imagePath: "../images/reels/Fooditems2.png",
+      url: "https://www.instagram.com/reel/DL_H0JJpYm6/?igsh=MTdubzQ5aHN2ODN5cw==",
+      imagePath: "../images/reels/foodTuck.png",
+      
     },
   ];
 
