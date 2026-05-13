@@ -483,7 +483,7 @@ with ketchup, mayonnaise and garlic-mint sauce.`,
       },
       {
         id: 4,
-        image: "../images/menu-images/butter-chicken-wrap.png",
+        image: "../images/menu-images/wrap-combo.png",
         title: "COMBO: Any Wrap+Fries+Pop",
         description: `A fresh, tightly rolled flour tortilla packed with your favorite fillings, accompanied by a side of crispy fries and a cold, bubbly beverage.`,
         price: "$13.99",
