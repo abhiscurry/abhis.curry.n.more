@@ -296,6 +296,55 @@ chutneys, onions, and flavourful spices.`,
   },
   {
     id: 4,
+    title: "Thali Combo",
+    items: [
+      {
+        id: 1,
+        image: "../images/menu-images/thepla_thali.png",
+        title: "Thepla Thali",
+        description: `Soft Thepla with flavourful potato sabji & traditional pickle.`,
+        price: "$5.99",
+        quantity: "",
+        isSignature: true,
+      },
+      {
+        id: 2,
+        image: "../images/menu-images/veg_thali.png",
+        title: "Veg. Thali",
+        description: `A wholesome platter with 2 veg curries, farsan, rice, naan bread, sweet and salad`,
+        price: "$11.99",
+        quantity: "",
+        isSignature: true,
+      },
+      {
+        id: 3,
+        image: "../images/menu-images/Gujarati_thali.png",
+        title: "Gujarati Thali",
+        description: `Gujarati Daal, 2 veg curries, farsan, puri, rice, salad and a traditional Aam ras`,
+        price: "$16.99",
+        quantity: "Available on Friday to Sunday from 12:30PM-9:30PM",
+      },
+      {
+        id: 4,
+        image: "../images/menu-images/Puri_extra.png",
+        title: "Extra Puri (2pcs)",
+        description: ``,
+        price: "$3.99",
+        quantity: "",
+      },
+     {
+        id: 5,
+        image: "../images/menu-images/Aam_ras.png",
+        title: "Aam Ras (Keri no Ras)",
+        description: ``,
+        price: "$4.99",
+        quantity: "",
+      },
+    ],
+  },
+
+  {
+    id: 5,
     title: "Twisted Burgers",
     items: [
       {
@@ -349,7 +398,7 @@ with ketchup, mayonnaise and garlic-mint sauce.`,
     ],
   },
   {
-    id: 5,
+    id: 6,
     title: "Fries",
     items: [
       {
@@ -558,6 +607,18 @@ basmati rice or 2 soft and fluffy Naan. Add pop for just $.99 extra.`,
         quantity: "",
         isSignature: true,
       },
+      {
+        id: 1,
+        image: "../images/menu-images/Chickpea-masala-and-rice.png",
+        title: "Chicken Curry with Rice or 2 Naan ",
+        description: `Chicken simmered in a fragrant tomato-
+onion gravy with aromatic spices, served
+alongside steamed basmati rice or 2 soft and fluffy Naan. Add pop for just $.99 extra.`,
+        price: "$14.99",
+        quantity: "",
+        isSignature: true,
+      },
+
       // {
       //   id: 4,
       //   image: "../images/menu-images/Chicken Curry with Rice or Naan.png",
@@ -585,17 +646,6 @@ basmati rice or 2 soft and fluffy Naan. Add pop for just $.99 extra.`,
         quantity: "",
       },
       {
-        id: 1,
-        image: "../images/menu-images/Chickpea-masala-and-rice.png",
-        title: "Chickpea Masala with Rice or 2 Naan ",
-        description: `Chickpea simmered in a fragrant tomato-
-onion gravy with aromatic spices, served
-alongside steamed basmati rice or 2 soft and fluffy Naan. Add pop for just $.99 extra.`,
-        price: "$11.99",
-        quantity: "",
-        isSignature: true,
-      },
-      {
         id: 6,
         image: "../images/menu-images/Naan-Bread.png",
         title: "Naan Bread",
@@ -603,14 +653,14 @@ alongside steamed basmati rice or 2 soft and fluffy Naan. Add pop for just $.99 
         price: "$1.99",
         quantity: "",
       },
-      {
-        id: 7,
-        image: "../images/menu-images/Garlic-Butter-Naan.png",
-        title: "Garlic Butter Naan",
-        description: `Soft, fluffy garlic-flavoured and buttery Indian flatbread.`,
-        price: "$2.99",
-        quantity: "",
-      },
+     // {
+      //  id: 7,
+      //  image: "../images/menu-images/Garlic-Butter-Naan.png",
+      //  title: "Garlic Butter Naan",
+      //  description: `Soft, fluffy garlic-flavoured and buttery Indian flatbread.`,
+       // price: "$2.99",
+       // quantity: "",
+      //},
     ],
   },
   {
