@@ -40,11 +40,9 @@ const Footer = () => {
               <div className="text-muted">
                 <strong>Opening hours:</strong>
                 <div className="mt-2">
-                  Monday: 10:00 AM - 8:00 PM
+                  Monday - Thursday: 10:00 AM - 9:00 PM
                   <br />
-                  Tuesday: Closed
-                  <br />
-                  Wednesday - Sunday: 10:00 AM - 8:00 PM
+                  Friday - Sunday: 10:00 AM - 10:00 PM
                 </div>
               </div>
 
