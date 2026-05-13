@@ -206,7 +206,7 @@ tamarind sauce with fresh onions and Sev.`,
         description: `Deep-fried mashed spicy potato patty coated with
 chickpea flour, placed inside a bread bun with
 homemade spicy chutney.`,
-        price: "$5.49,
+        price: "$5.49",
         quantity: "",
       },
       {
