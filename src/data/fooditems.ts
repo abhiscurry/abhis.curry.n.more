@@ -655,7 +655,7 @@ alongside steamed basmati rice or 2 soft and fluffy Naan. Add pop for just $.99 
       },
       {
          id: 4,
-         image: "../images/menu-images/Chocolate-Milkshake.png",
+         image: "../images/menu-images/Chocolate_Milkshake.png",
          title: "Chocolate Milkshake",
          description: `A rich and velvety blend of premium cocoa and creamy vanilla ice cream, whipped into a smooth, decadent treat for the ultimate chocolate lover.`,
          price: "$6.99",
